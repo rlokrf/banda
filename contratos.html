@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contratos - Banda Quadribalistasbalistas</title>
+    <link rel="stylesheet" href="styles4.css">
+</head>
+<body>
+    <header>
+        <h1>Contratos - Banda Quadribalistas</h1>
+        <p>Preencha o formulário abaixo para contratar a banda.</p>
+    </header>
+    <main>
+        <form action="submit_contract.php" method="POST" class="contract-form">
+            <label for="name">Nome Completo:</label>
+            <input type="text" id="name" name="name" required placeholder="Seu nome completo">
+
+            <label for="phone">Número de Telefone:</label>
+            <input type="tel" id="phone" name="phone" required placeholder="(XX) XXXXX-XXXX">
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required placeholder="seuemail@exemplo.com">
+
+            <label for="details">Detalhes do Contrato:</label>
+            <textarea id="details" name="details" rows="5" required placeholder="Descreva o evento e outras informações importantes"></textarea>
+
+            <button type="submit">Enviar Contrato</button>
+        </form>
+    </main>
+    <footer>
+        <p>© 2024 Tribalistas. Atenciosa equipe Quadribalistas.</p>
+    </footer>
+</body>
+</html>
+
